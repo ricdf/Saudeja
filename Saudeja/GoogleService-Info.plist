@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>513058161279-v9ddhu1tcub7e1fb61ad6d6pnjvthm6t.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.513058161279-v9ddhu1tcub7e1fb61ad6d6pnjvthm6t</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB_nRwTf122-cscJM2u6fZRwZI3OOxlQ-0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>513058161279</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>br.com.rcbnet.Saudeja</string>
+	<key>PROJECT_ID</key>
+	<string>saude-ja</string>
+	<key>STORAGE_BUCKET</key>
+	<string>saude-ja.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:513058161279:ios:c88d5aec3669f155</string>
+	<key>DATABASE_URL</key>
+	<string>https://saude-ja.firebaseio.com</string>
+</dict>
+</plist>

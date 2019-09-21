@@ -32,6 +32,9 @@
 		8C3721272312A1E5001D5580 /* SaudejaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3721262312A1E5001D5580 /* SaudejaUITests.swift */; };
 		8C3721372312A3D3001D5580 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8C3721362312A3D3001D5580 /* GoogleService-Info.plist */; };
 		8C79EAA5233196D000FD57F5 /* pickerAtividadesFisica.json in Resources */ = {isa = PBXBuildFile; fileRef = 8C79EAA4233196D000FD57F5 /* pickerAtividadesFisica.json */; };
+		8C7CB16C2335C600002A0932 /* DatePickerPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7CB16A2335C600002A0932 /* DatePickerPopover.swift */; };
+		8C7CB16D2335C600002A0932 /* DatePickerPopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7CB16B2335C600002A0932 /* DatePickerPopoverViewController.swift */; };
+		8C7CB16F2335CC60002A0932 /* DatePickerPopover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C7CB16E2335CC60002A0932 /* DatePickerPopover.storyboard */; };
 		8CF57E102314521400571058 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CF57E0F2314521400571058 /* Main.storyboard */; };
 		8CF57E1323156B3100571058 /* EntrarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF57E1123156B3100571058 /* EntrarViewController.swift */; };
 		8CF57E1423156B3100571058 /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF57E1223156B3100571058 /* CadastroViewController.swift */; };
@@ -89,6 +92,9 @@
 		8C3721282312A1E5001D5580 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C3721362312A3D3001D5580 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8C79EAA4233196D000FD57F5 /* pickerAtividadesFisica.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pickerAtividadesFisica.json; sourceTree = "<group>"; };
+		8C7CB16A2335C600002A0932 /* DatePickerPopover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerPopover.swift; sourceTree = "<group>"; };
+		8C7CB16B2335C600002A0932 /* DatePickerPopoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerPopoverViewController.swift; sourceTree = "<group>"; };
+		8C7CB16E2335CC60002A0932 /* DatePickerPopover.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DatePickerPopover.storyboard; sourceTree = "<group>"; };
 		8CF57E0F2314521400571058 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		8CF57E1123156B3100571058 /* EntrarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntrarViewController.swift; sourceTree = "<group>"; };
 		8CF57E1223156B3100571058 /* CadastroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
@@ -137,6 +143,7 @@
 			children = (
 				8C07A4072319B150006DBC75 /* AbstractPopover.swift */,
 				8C07A4092319BC40006DBC75 /* PickerCalendario */,
+				8C7CB1692335C5C9002A0932 /* PickerData */,
 				8C07A4002319AFD5006DBC75 /* PickerString */,
 			);
 			path = CustomPickerView;
@@ -245,6 +252,16 @@
 				8C07A3E12318239A006DBC75 /* LojasViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8C7CB1692335C5C9002A0932 /* PickerData */ = {
+			isa = PBXGroup;
+			children = (
+				8C7CB16E2335CC60002A0932 /* DatePickerPopover.storyboard */,
+				8C7CB16A2335C600002A0932 /* DatePickerPopover.swift */,
+				8C7CB16B2335C600002A0932 /* DatePickerPopoverViewController.swift */,
+			);
+			path = PickerData;
 			sourceTree = "<group>";
 		};
 		8CE83F352319CDDE00EC555F /* Json */ = {
@@ -373,6 +390,7 @@
 				8C3721372312A3D3001D5580 /* GoogleService-Info.plist in Resources */,
 				8C37210E2312A1E5001D5580 /* Assets.xcassets in Resources */,
 				8CF57E102314521400571058 /* Main.storyboard in Resources */,
+				8C7CB16F2335CC60002A0932 /* DatePickerPopover.storyboard in Resources */,
 				8C07A4042319B058006DBC75 /* ColumnStringPickerPopover.storyboard in Resources */,
 				8C79EAA5233196D000FD57F5 /* pickerAtividadesFisica.json in Resources */,
 			);
@@ -446,6 +464,7 @@
 				8CF57E1723156BC200571058 /* Alerta.swift in Sources */,
 				8CF57E1823156BC200571058 /* Usuario.swift in Sources */,
 				8C3721072312A1E2001D5580 /* AppDelegate.swift in Sources */,
+				8C7CB16C2335C600002A0932 /* DatePickerPopover.swift in Sources */,
 				8C07A3E22318239A006DBC75 /* LojasViewController.swift in Sources */,
 				8C07A3FC231884BD006DBC75 /* ToolbarPickerView.swift in Sources */,
 				8C07A3DE2318230A006DBC75 /* CalendarioViewController.swift in Sources */,
@@ -458,6 +477,7 @@
 				8C07A3FA23187E9C006DBC75 /* AtividadeFisica.swift in Sources */,
 				8C07A3F423185573006DBC75 /* DicasTableViewController.swift in Sources */,
 				8C07A3E42318242A006DBC75 /* PrincipalTabBarController.swift in Sources */,
+				8C7CB16D2335C600002A0932 /* DatePickerPopoverViewController.swift in Sources */,
 				8C07A3DC231822CD006DBC75 /* PerfilViewController.swift in Sources */,
 				8CF57E1423156B3100571058 /* CadastroViewController.swift in Sources */,
 				8C07A4082319B150006DBC75 /* AbstractPopover.swift in Sources */,

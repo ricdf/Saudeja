@@ -12,8 +12,6 @@ class PrincipalTabBarController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        self.navigationItem.title = "My Title"
     }
     
 

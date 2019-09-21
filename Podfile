@@ -11,5 +11,8 @@ target 'Saudeja' do
     pod 'Firebase/Auth'
     pod 'Firebase/Storage'
     pod 'SDWebImage'
-
+    pod 'Alamofire'
+    pod 'SwiftyJSON'
+    
+    #pod 'AUPickerCell'
 end

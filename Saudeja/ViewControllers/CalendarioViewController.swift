@@ -10,6 +10,21 @@ import UIKit
 
 class CalendarioViewController: UIViewController {
 
+    @IBAction func addAtiva(_ sender: UIButton) {
+    
+        ColumnStringPickerPopover.appearFrom(originView: sender, baseViewController: self, title: "Columns Strings",
+                                             choices: [["Breakfast", "Lunch", "Dinner"], ["Tacos", "Sushi", "Steak", "Waffles", "Burgers"]],
+                                             initialRow: [0,0],
+                                             columnPercent: [0.50,0.50],
+                                             fontSize: 22.0,
+                                             doneAction: { selectedRows, selectedStrings in print("selected rows \(selectedRows) strings \(selectedStrings)")}, cancelAction: {print("cancel")})
+        
+    }
+    
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.

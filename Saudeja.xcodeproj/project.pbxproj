@@ -14,6 +14,16 @@
 		8C07A3E023182379006DBC75 /* SaudeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C07A3DF23182379006DBC75 /* SaudeViewController.swift */; };
 		8C07A3E22318239A006DBC75 /* LojasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C07A3E12318239A006DBC75 /* LojasViewController.swift */; };
 		8C07A3E42318242A006DBC75 /* PrincipalTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C07A3E32318242A006DBC75 /* PrincipalTabBarController.swift */; };
+		8C07A3F223185565006DBC75 /* IndicesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C07A3F123185565006DBC75 /* IndicesTableViewController.swift */; };
+		8C07A3F423185573006DBC75 /* DicasTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C07A3F323185573006DBC75 /* DicasTableViewController.swift */; };
+		8C07A3F623185585006DBC75 /* ReceitasTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C07A3F523185585006DBC75 /* ReceitasTableViewController.swift */; };
+		8C07A3F82318558E006DBC75 /* AlimentosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C07A3F72318558E006DBC75 /* AlimentosTableViewController.swift */; };
+		8C07A3FA23187E9C006DBC75 /* AtividadeFisica.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C07A3F923187E9C006DBC75 /* AtividadeFisica.swift */; };
+		8C07A3FC231884BD006DBC75 /* ToolbarPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C07A3FB231884BD006DBC75 /* ToolbarPickerView.swift */; };
+		8C07A4042319B058006DBC75 /* ColumnStringPickerPopover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C07A4012319B058006DBC75 /* ColumnStringPickerPopover.storyboard */; };
+		8C07A4052319B058006DBC75 /* ColumnStringPickerPopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C07A4022319B058006DBC75 /* ColumnStringPickerPopoverViewController.swift */; };
+		8C07A4062319B058006DBC75 /* ColumnStringPickerPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C07A4032319B058006DBC75 /* ColumnStringPickerPopover.swift */; };
+		8C07A4082319B150006DBC75 /* AbstractPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C07A4072319B150006DBC75 /* AbstractPopover.swift */; };
 		8C3721072312A1E2001D5580 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3721062312A1E2001D5580 /* AppDelegate.swift */; };
 		8C3721092312A1E2001D5580 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3721082312A1E2001D5580 /* ViewController.swift */; };
 		8C37210E2312A1E5001D5580 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C37210D2312A1E5001D5580 /* Assets.xcassets */; };
@@ -21,6 +31,7 @@
 		8C37211C2312A1E5001D5580 /* SaudejaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C37211B2312A1E5001D5580 /* SaudejaTests.swift */; };
 		8C3721272312A1E5001D5580 /* SaudejaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3721262312A1E5001D5580 /* SaudejaUITests.swift */; };
 		8C3721372312A3D3001D5580 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8C3721362312A3D3001D5580 /* GoogleService-Info.plist */; };
+		8C79EAA5233196D000FD57F5 /* pickerAtividadesFisica.json in Resources */ = {isa = PBXBuildFile; fileRef = 8C79EAA4233196D000FD57F5 /* pickerAtividadesFisica.json */; };
 		8CF57E102314521400571058 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CF57E0F2314521400571058 /* Main.storyboard */; };
 		8CF57E1323156B3100571058 /* EntrarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF57E1123156B3100571058 /* EntrarViewController.swift */; };
 		8CF57E1423156B3100571058 /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF57E1223156B3100571058 /* CadastroViewController.swift */; };
@@ -54,6 +65,16 @@
 		8C07A3DF23182379006DBC75 /* SaudeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaudeViewController.swift; sourceTree = "<group>"; };
 		8C07A3E12318239A006DBC75 /* LojasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LojasViewController.swift; sourceTree = "<group>"; };
 		8C07A3E32318242A006DBC75 /* PrincipalTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrincipalTabBarController.swift; sourceTree = "<group>"; };
+		8C07A3F123185565006DBC75 /* IndicesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicesTableViewController.swift; sourceTree = "<group>"; };
+		8C07A3F323185573006DBC75 /* DicasTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DicasTableViewController.swift; sourceTree = "<group>"; };
+		8C07A3F523185585006DBC75 /* ReceitasTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceitasTableViewController.swift; sourceTree = "<group>"; };
+		8C07A3F72318558E006DBC75 /* AlimentosTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlimentosTableViewController.swift; sourceTree = "<group>"; };
+		8C07A3F923187E9C006DBC75 /* AtividadeFisica.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtividadeFisica.swift; sourceTree = "<group>"; };
+		8C07A3FB231884BD006DBC75 /* ToolbarPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarPickerView.swift; sourceTree = "<group>"; };
+		8C07A4012319B058006DBC75 /* ColumnStringPickerPopover.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = ColumnStringPickerPopover.storyboard; path = Saudeja/Models/CustomPickerView/ColumnStringPickerPopover.storyboard; sourceTree = SOURCE_ROOT; };
+		8C07A4022319B058006DBC75 /* ColumnStringPickerPopoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColumnStringPickerPopoverViewController.swift; path = Saudeja/Models/CustomPickerView/ColumnStringPickerPopoverViewController.swift; sourceTree = SOURCE_ROOT; };
+		8C07A4032319B058006DBC75 /* ColumnStringPickerPopover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColumnStringPickerPopover.swift; path = Saudeja/Models/CustomPickerView/ColumnStringPickerPopover.swift; sourceTree = SOURCE_ROOT; };
+		8C07A4072319B150006DBC75 /* AbstractPopover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractPopover.swift; sourceTree = "<group>"; };
 		8C3721032312A1E2001D5580 /* Saudeja.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Saudeja.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C3721062312A1E2001D5580 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C3721082312A1E2001D5580 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -67,6 +88,7 @@
 		8C3721262312A1E5001D5580 /* SaudejaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaudejaUITests.swift; sourceTree = "<group>"; };
 		8C3721282312A1E5001D5580 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C3721362312A3D3001D5580 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8C79EAA4233196D000FD57F5 /* pickerAtividadesFisica.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pickerAtividadesFisica.json; sourceTree = "<group>"; };
 		8CF57E0F2314521400571058 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		8CF57E1123156B3100571058 /* EntrarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntrarViewController.swift; sourceTree = "<group>"; };
 		8CF57E1223156B3100571058 /* CadastroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
@@ -110,6 +132,33 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		8C07A3FF2319AE1E006DBC75 /* CustomPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				8C07A4072319B150006DBC75 /* AbstractPopover.swift */,
+				8C07A4092319BC40006DBC75 /* PickerCalendario */,
+				8C07A4002319AFD5006DBC75 /* PickerString */,
+			);
+			path = CustomPickerView;
+			sourceTree = "<group>";
+		};
+		8C07A4002319AFD5006DBC75 /* PickerString */ = {
+			isa = PBXGroup;
+			children = (
+				8C07A4012319B058006DBC75 /* ColumnStringPickerPopover.storyboard */,
+				8C07A4032319B058006DBC75 /* ColumnStringPickerPopover.swift */,
+				8C07A4022319B058006DBC75 /* ColumnStringPickerPopoverViewController.swift */,
+			);
+			path = PickerString;
+			sourceTree = "<group>";
+		};
+		8C07A4092319BC40006DBC75 /* PickerCalendario */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PickerCalendario;
+			sourceTree = "<group>";
+		};
 		8C3720FA2312A1E2001D5580 = {
 			isa = PBXGroup;
 			children = (
@@ -135,6 +184,7 @@
 		8C3721052312A1E2001D5580 /* Saudeja */ = {
 			isa = PBXGroup;
 			children = (
+				8CE83F352319CDDE00EC555F /* Json */,
 				8C3721342312A2C3001D5580 /* Models */,
 				8C3721352312A2CB001D5580 /* ViewControllers */,
 				8C3721062312A1E2001D5580 /* AppDelegate.swift */,
@@ -168,8 +218,11 @@
 		8C3721342312A2C3001D5580 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				8C07A3FF2319AE1E006DBC75 /* CustomPickerView */,
 				8CF57E1523156BC200571058 /* Alerta.swift */,
 				8CF57E1623156BC200571058 /* Usuario.swift */,
+				8C07A3F923187E9C006DBC75 /* AtividadeFisica.swift */,
+				8C07A3FB231884BD006DBC75 /* ToolbarPickerView.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -185,9 +238,21 @@
 				8C07A3DD2318230A006DBC75 /* CalendarioViewController.swift */,
 				8C07A3D923181878006DBC75 /* ConfigViewController.swift */,
 				8C07A3DF23182379006DBC75 /* SaudeViewController.swift */,
+				8C07A3F123185565006DBC75 /* IndicesTableViewController.swift */,
+				8C07A3F323185573006DBC75 /* DicasTableViewController.swift */,
+				8C07A3F523185585006DBC75 /* ReceitasTableViewController.swift */,
+				8C07A3F72318558E006DBC75 /* AlimentosTableViewController.swift */,
 				8C07A3E12318239A006DBC75 /* LojasViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8CE83F352319CDDE00EC555F /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				8C79EAA4233196D000FD57F5 /* pickerAtividadesFisica.json */,
+			);
+			path = Json;
 			sourceTree = "<group>";
 		};
 		F05FFF5A0D26064CE89EC208 /* Frameworks */ = {
@@ -308,6 +373,8 @@
 				8C3721372312A3D3001D5580 /* GoogleService-Info.plist in Resources */,
 				8C37210E2312A1E5001D5580 /* Assets.xcassets in Resources */,
 				8CF57E102314521400571058 /* Main.storyboard in Resources */,
+				8C07A4042319B058006DBC75 /* ColumnStringPickerPopover.storyboard in Resources */,
+				8C79EAA5233196D000FD57F5 /* pickerAtividadesFisica.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,18 +441,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C07A3F82318558E006DBC75 /* AlimentosTableViewController.swift in Sources */,
 				8C3721092312A1E2001D5580 /* ViewController.swift in Sources */,
 				8CF57E1723156BC200571058 /* Alerta.swift in Sources */,
 				8CF57E1823156BC200571058 /* Usuario.swift in Sources */,
 				8C3721072312A1E2001D5580 /* AppDelegate.swift in Sources */,
 				8C07A3E22318239A006DBC75 /* LojasViewController.swift in Sources */,
+				8C07A3FC231884BD006DBC75 /* ToolbarPickerView.swift in Sources */,
 				8C07A3DE2318230A006DBC75 /* CalendarioViewController.swift in Sources */,
+				8C07A4062319B058006DBC75 /* ColumnStringPickerPopover.swift in Sources */,
 				8C07A3DA23181878006DBC75 /* ConfigViewController.swift in Sources */,
 				8CF57E1323156B3100571058 /* EntrarViewController.swift in Sources */,
+				8C07A3F223185565006DBC75 /* IndicesTableViewController.swift in Sources */,
+				8C07A3F623185585006DBC75 /* ReceitasTableViewController.swift in Sources */,
 				8C07A3E023182379006DBC75 /* SaudeViewController.swift in Sources */,
+				8C07A3FA23187E9C006DBC75 /* AtividadeFisica.swift in Sources */,
+				8C07A3F423185573006DBC75 /* DicasTableViewController.swift in Sources */,
 				8C07A3E42318242A006DBC75 /* PrincipalTabBarController.swift in Sources */,
 				8C07A3DC231822CD006DBC75 /* PerfilViewController.swift in Sources */,
 				8CF57E1423156B3100571058 /* CadastroViewController.swift in Sources */,
+				8C07A4082319B150006DBC75 /* AbstractPopover.swift in Sources */,
+				8C07A4052319B058006DBC75 /* ColumnStringPickerPopoverViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
